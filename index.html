@@ -17,17 +17,18 @@
     </div>
   </div>
   <script>
-    var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/Roll-A-Ball-Web.loader.js";
-    var config = {
-      dataUrl: buildUrl + "/Roll-A-Ball-Web.data.br",
-      frameworkUrl: buildUrl + "/Roll-A-Ball-Web.framework.js.br",
-      codeUrl: buildUrl + "/Roll-A-Ball-Web.wasm.br",
-      streamingAssetsUrl: "StreamingAssets",
-      companyName: "DefaultCompany",
-      productName: "Roll A Ball",
-      productVersion: "1.0",
-      devicePixelRatio: 1,
+		
+	var buildUrl = "Build";
+	var loaderUrl = buildUrl + "/Roll-A-Ball-Web-Responsive.loader.js";
+	var config = {
+    dataUrl: buildUrl + "/Roll-A-Ball-Web-Responsive.data",
+    frameworkUrl: buildUrl + "/Roll-A-Ball-Web-Responsive.framework.js",
+    codeUrl: buildUrl + "/Roll-A-Ball-Web-Responsive.wasm",
+    streamingAssetsUrl: "StreamingAssets",
+    companyName: "DefaultCompany",
+    productName: "RollABall",
+    productVersion: "1.0",
+    devicePixelRatio: 1,
     };
 
     var container = document.querySelector("#unity-container");
