@@ -5,6 +5,11 @@ html, body {
   background: #000;
 }
 
+html, body, #unity-container, #unity-canvas {
+  touch-action: none; /* отключит «таскание» страницы пальцем */
+}
+
+
 #unity-container {
   width: 100%;
   height: 100%;
